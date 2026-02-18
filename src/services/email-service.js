@@ -10,7 +10,7 @@ const sendBasicEmail = async function(mailFrom, mailTo , mailSubject, mailBody){
         });
         console.log(response);
     } catch (error) {
-       console.log(error); 
+       console.log(error);
     }
 }
 
